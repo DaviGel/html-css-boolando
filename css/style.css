@@ -102,7 +102,7 @@ main .products-container .product img {
   transition: opacity 0.5s ease;
 }
 
-main .products-container .product img:nth-of-type(2) {
+main .products-container .product .product-image img:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
