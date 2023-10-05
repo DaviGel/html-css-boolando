@@ -129,6 +129,7 @@ main .products-container .product:hover img:nth-of-type(2) {
   left: 0;
   bottom: 106px;
   color: white;
+  font-weight: bold;
 }
 
 .p5 {
