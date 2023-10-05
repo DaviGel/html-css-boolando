@@ -84,6 +84,8 @@ footer .right-footer ul li a {
 .product {
   width: calc(100% / 3 - 20px);
   position: relative;
+  top: 0;
+  left: 0;
 }
 
 main .products-container .product img {
