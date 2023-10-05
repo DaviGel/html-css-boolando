@@ -60,6 +60,15 @@ header nav #logo img {
 footer .left-footer ul li,
 footer .right-footer ul li {
   all: unset;
+}
+
+.site-header .nav ul li,
+footer .left-footer ul li {
+  margin-right: 10px;
+}
+
+.site-header .logo ul li,
+footer .right-footer ul li {
   margin-left: 10px;
 }
 
