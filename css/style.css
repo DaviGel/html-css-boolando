@@ -54,7 +54,7 @@ header nav #logo img {
   background-color: #ff6900;
   color: white;
   z-index: 99;
-  box-shadow: 3px 3px 30px black;
+  box-shadow: 1px 1px 20px black;
 }
 
 .site-header ul li,
