@@ -181,9 +181,7 @@ footer {
   margin-bottom: 10px;
 }
 
-.container2 {
-  margin: 0 auto;
-  width: 1270px;
+footer .container.flex {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
