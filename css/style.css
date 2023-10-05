@@ -38,7 +38,6 @@ header .container.nopadd {
 
 #logo {
   width: 140px;
-  /* transform: translate(-50%); */
 }
 
 header nav #logo img {
@@ -54,6 +53,15 @@ header nav #logo img {
   color: white;
   z-index: 99;
   box-shadow: 1px 1px 20px black;
+}
+
+.site-header .nav,
+.site-header .icons {
+  width: 20%;
+}
+
+.site-header .icons {
+  text-align: end;
 }
 
 .site-header ul li,
