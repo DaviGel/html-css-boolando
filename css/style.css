@@ -99,7 +99,7 @@ footer .right-footer ul li a {
 main .products-container .product img {
   display: block;
   width: 100%;
-  transition: 0.5s ease;
+  transition: opacity 0.5s ease;
 }
 
 main .products-container .product img:nth-of-type(2) {
