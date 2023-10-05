@@ -11,7 +11,7 @@
 /* #region COMMON */
 
 .container {
-  max-width: 1270px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -28,13 +28,12 @@ body {
 
 /* #region HEADER */
 
-nav {
-  width: 1270px;
+header .container.nopadd {
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  margin: 0 auto;
 }
 
 #logo {
@@ -61,7 +60,7 @@ header nav #logo img {
 footer .left-footer ul li,
 footer .right-footer ul li {
   all: unset;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .site-header ul li a,
@@ -77,13 +76,12 @@ footer .right-footer ul li a {
 
 .products-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .product {
-  width: calc(100% / 3 - 20px);
+  width: calc((100% - 40px) / 3);
   position: relative;
   top: 0;
   left: 0;
